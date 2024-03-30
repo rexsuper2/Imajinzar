@@ -8,11 +8,11 @@ import "./globals.css";
 const IBMPlex = IBM_Plex_Sans({ 
   subsets: ["latin"],
   weight: ['400', '500', '600', '700'],
-  variable: '--font-ibm-flex'
+  variable: '--font-ibm-plex'
 });
 
 export const metadata: Metadata = {
-  title: "Imajinzar",
+  title: "Imaginify",
   description: "AI-powered image generator",
 };
 
@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider appeearance={{
+    <ClerkProvider appearance={{
       variables: { colorPrimary: '#624cf5' }
     }}>
       <html lang="en">
